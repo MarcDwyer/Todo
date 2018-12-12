@@ -10,3 +10,42 @@ nav {
         margin-left: 15px;
     }
 }
+
+.contained {
+    display: grid;
+    margin: 15px auto 0 auto;
+    width: 75%;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 15px;
+
+    .acard {
+        border: solid 1px #eee;
+        height: 250px;
+        h5 {
+            margin-left: 5px;
+        }
+        .content {
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+}
+
+.modalbtn {
+    margin-top: 15px;
+    margin-left: 15%;
+    background-color: #42a5f5;
+}
+.modalbtn:hover {
+    background-color: #42a5f5;
+}
+
+.picker__frame {
+    top: 0 !important;
+    height: 100%;
+    z-index: 2000 !important;
+    overflow: none;
+}
+.picker__holder {
+    z-index: 2000;
+} 
